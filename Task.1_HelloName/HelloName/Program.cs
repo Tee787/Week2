@@ -13,6 +13,7 @@ namespace HelloName
             string a, b, c, d;
             Console.WriteLine("Hello, please enter your name : ");
             a = Console.ReadLine();
+            Console.WriteLine("Hello, {0}", a);
             Console.WriteLine("Enter your age :  ");
             b = Console.ReadLine();
             Console.WriteLine("What is your agenda : ");
